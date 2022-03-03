@@ -1,0 +1,22 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.myButton {
+  background-color:lightgrey;
+  border-radius: 6px;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-right: 4px;
+}
+
+.admin {
+  color: darkgreen;
+}
+
+.spaced {
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
