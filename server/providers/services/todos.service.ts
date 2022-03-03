@@ -18,7 +18,6 @@ export class TodosService {
     const todo = new Todo();
     todo.content = content;
     todo.isComplete = false;
-    console.log('creating');
     return await this.todosRepository.save(todo);
   }
 
